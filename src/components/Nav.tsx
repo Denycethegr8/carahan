@@ -1,22 +1,25 @@
+import { Link } from 'react-router-dom'
+
 const Nav = () => {
   return (
-    <nav className="nav">
-      <img className="company-logo" src="src/img/logo.png"></img>
-      <a href="/" className="mobile-invis">
+    <nav className ="nav">
+      <Link to="./Home">
+        <img className="company-logo" src="src/img/logo.png"></img></Link>
+      <Link to="./Brands" className="mobile-invis">
         BRANDS
-      </a>
-      <a href="/" className="mobile-invis">
+      </Link>
+      <Link to="./About" className="mobile-invis">
         ABOUT
-      </a>
-      <a href="/" className="mobile-invis">
+      </Link>
+      <Link to="/" className="mobile-invis">
         STYLING GALLERY
-      </a>
-      <a href="/" className="mobile-invis">
+      </Link>
+      <Link to="/" className="mobile-invis">
         STORE
-      </a>
-      <a href="/" className="mobile-invis">
+      </Link>
+      <Link to="/" className="mobile-invis">
         CONTACT
-      </a>
+      </Link>
       <div className="insta-logo mobile-invis">
         <a target="_blank" href="https://www.instagram.com/maristeiger_store/">
           <img className="insta-logo" src="src/img/insta.svg"></img>
