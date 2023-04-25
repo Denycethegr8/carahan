@@ -87,28 +87,49 @@ footer > img {
   color:rgba(104, 48, 8, 0.733);
 }
 
-.home-gallery{
-  width:1200px;
+.home-flex {
+  width:1024px;
   padding: 0 12px;
   margin: auto;
   left: 0;
   right: 0;
+}
+
+.home-gallery{
   display: grid;
   grid-template-columns: 33% 33% 33%;
   column-gap: 0.5%;
+  row-gap: 10px;
   padding: 10px;
 }
 
-.home-gallery > p {
-  padding-top:150px;
+.styling-gallery {
+  padding:110px 0 5px 10px;
   font-size: 20px;
   font-weight:600;
 }
 
-.home-gallery-img {
-  height: 40vh;
-  object-fit: cover;
+
+.view-more {
+  font-size: 15px;
+  color: #555;
+  text-align:end;
+  padding:10px;
 }
+
+.view-more:hover {
+  font-style:italic
+}
+
+.home-gallery-img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 .home-gallery-img:hover {
   opacity:75%;
