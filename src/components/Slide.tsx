@@ -28,11 +28,7 @@ const Slide = () => {
       {
         imgSrc: "./src/img/main4.jpg",
         name: "MARI STEIGER",
-      },
-      {
-        imgSrc: "./src/img/main5.jpg",
-        name: "MARI STEIGER",
-      },
+      }
     ];
   
     return (
