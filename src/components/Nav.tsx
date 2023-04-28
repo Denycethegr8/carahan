@@ -11,13 +11,13 @@ const Nav = () => {
       <Link to="./About" className="mobile-invis">
         ABOUT
       </Link>
-      <Link to="/" className="mobile-invis">
+      <Link to="./StylingGallery" className="mobile-invis">
         STYLING GALLERY
       </Link>
-      <Link to="/" className="mobile-invis">
+      <Link to="./Store" className="mobile-invis">
         STORE
       </Link>
-      <Link to="/" className="mobile-invis">
+      <Link to="./Contact" className="mobile-invis">
         CONTACT
       </Link>
       <div className="insta-logo mobile-invis">

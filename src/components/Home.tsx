@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="home">
       <Slide />
-      <section className="home-flex">
+      <section className="page-center">
         <p className="styling-gallery">Styling Gallery</p>
         <div className="home-gallery">
           {homeGalleryImgs}

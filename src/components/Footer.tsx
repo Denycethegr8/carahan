@@ -7,10 +7,10 @@ const Footer = () => {
       <img src="src/img/logo.png"></img>
         <section className="footer-menu">
           <Link to="./Brands" className="footer-link">BRANDS</Link>
-          <Link to="/" className="footer-link">STORE</Link>
+          <Link to="./Store" className="footer-link">STORE</Link>
           <Link to="./About" className="footer-link">ABOUT</Link>
-          <Link to="/" className="footer-link">CONTACT</Link>
-          <Link to="/" className="footer-link">STYLING GALLERY</Link>
+          <Link to="./Contact" className="footer-link">CONTACT</Link>
+          <Link to="./StylingGallery" className="footer-link">STYLING GALLERY</Link>
        </section>
         <div className="footer-company">
           <p>상호 : 주식회사 카라한 대표이사 : 한창민</p>
