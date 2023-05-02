@@ -2,8 +2,8 @@ import Footer from "./Footer"
 
 const Contact = () => {
     return ( 
-        <div className="Contact">
-            <p>sdfsd</p>
+        <div className="contact">
+            <div className="contact-div">sdfsd</div>
             <Footer />
         </div>
      );

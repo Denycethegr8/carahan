@@ -2,8 +2,8 @@ import Footer from "./Footer"
 
 const StylingGallery = () => {
     return ( 
-        <div className="StylingGallery">
-            <p>sdfsd</p>
+        <div className="stylinggallery">
+            <div className="stylinggallery-div">sdfsd</div>
             <Footer />
         </div>
      );
