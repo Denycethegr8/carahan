@@ -263,7 +263,22 @@ footer {
 /* contact start */
 .contact-div {
   min-height: calc(100vh - 400px);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
 }
+
+tr {
+  height: 40px;
+  border: 1px black solid;
+}
+
+td > p {
+  width: 100px;
+}
+
+
 /* contact end */
 
 
