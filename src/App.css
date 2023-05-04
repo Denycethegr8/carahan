@@ -263,21 +263,62 @@ footer {
 /* contact start */
 .contact-div {
   min-height: calc(100vh - 400px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width:600px;
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content:center;
+  border-top: 1px black solid;
+}
+
+tbody{
+  width:100%;
 }
 
 tr {
-  height: 40px;
-  border: 1px black solid;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr;
 }
 
 td > p {
-  width: 100px;
+  margin: auto;
+  top:0px;
+  bottom: 0px;
 }
 
+td > input {
+  width: 99%;
+  height: 25px;
+  margin: 5px 0px;
+  padding: 0;
+  border: none;
+}
+
+td > textarea {
+  width: 99%;
+  height: 500px;
+  padding: 0;
+}
+
+.table-line{
+  height:3px;
+  background-color: black;
+}
+
+.table-line{
+  margin-top: 5px;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
 
 /* contact end */
 
