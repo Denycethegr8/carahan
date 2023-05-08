@@ -241,21 +241,20 @@ footer {
   justify-content:center;
 }
 
-.store-flex > div > img {
+.store-imgs > img {
   width: 100%;
-  box-shadow: 10px 10px 5px 0px rgba(240, 240, 240, 0.75);
 }
 
 .store-flex > div > a {
   font-family: 'Nanum Gothic', sans-serif;
   text-decoration: none;
-  color:#555;
-  font-size: 15px;
+  color:#9a7b4f;
+  font-size: 13px;
   font-weight: 600;
   margin-top: 40px;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 5px;
-  background-color:blanchedalmond;
+  background-color:antiquewhite;
 }
 /* store end */
 
@@ -275,7 +274,9 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  border-top: 1px black solid;
+  border-top: 3px rgb(0, 0, 0) solid;
+  margin-top: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 tbody{
@@ -288,38 +289,50 @@ tr {
   grid-template-columns: 1fr 2fr;
 }
 
+td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-td {
+  height: 40px;
+}
+
 td > p {
   margin: auto;
-  top:0px;
-  bottom: 0px;
 }
 
 td > input {
+  line-height: 30px;
   width: 99%;
-  height: 25px;
-  margin: 5px 0px;
-  padding: 0;
   border: none;
 }
 
-td > textarea {
-  width: 99%;
-  height: 500px;
-  padding: 0;
-}
-
 .table-line{
-  height:3px;
-  background-color: black;
-}
-
-.table-line{
-  margin-top: 5px;
   height: 1px;
   width: 100%;
   background-color: black;
 }
 
+.textarea-td {
+  padding: 5px 0;
+}
+
+td > textarea {
+  caret-color: auto;
+  border:none;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+form > button {
+  margin: 20px 0;
+  padding: 7px;
+  border:none;
+  border-radius: 5px;
+  color:#9a7b4f;
+  background-color: antiquewhite;
+}
 /* contact end */
 
 

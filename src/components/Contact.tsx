@@ -9,61 +9,59 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-div">
-        <h2>Contact us</h2>
+        <h2>CONTACT US</h2>
         <form onSubmit={handleSubmit}>
-            <tbody>
-              <tr>
-                <td>
-                  <p>Name</p>
-                </td>
-                <td>
-                  <input name="myEmail" type="text" />
-                </td>
-              </tr>
-              <tr className="table-line">
+          <tbody>
+            <tr>
+              <td className="input-td">
+                <p>Name</p>
+              </td>
+              <td>
+                <input name="myEmail" type="text" />
+              </td>
             </tr>
-              <tr>
-                <td>
-                  <p>Email</p>
-                </td>
-                <td>
-                  <input name="myEmail" type="text" />
-                </td>
-              </tr>
-              <tr className="table-line">
+            <tr className="table-line"></tr>
+            <tr>
+              <td style={{ height: "40px"}}>
+                <p>Email</p>
+              </td>
+              <td>
+                <input name="myEmail" type="text" />
+              </td>
             </tr>
-              <tr>
-                <td>
-                  <p>Phone</p>
-                </td>
-                <td>
-                  <input name="myPhone" type="text" />
-                </td>
-              </tr>
-              <tr className="table-line">
+            <tr className="table-line"></tr>
+            <tr>
+              <td className="input-td">
+                <p>Phone</p>
+              </td>
+              <td>
+                <input name="myPhone" type="text" />
+              </td>
             </tr>
-              <tr>
-                <td>
-                  <p>Subject</p>
-                </td>
-                <td>
-                  <input name="mySubject" type="text" />
-                </td>
-              </tr>
-              <tr className="table-line">
+            <tr className="table-line"></tr>
+            <tr>
+              <td className="input-td">
+                <p>Subject</p>
+              </td>
+              <td>
+                <input name="mySubject" type="text" />
+              </td>
             </tr>
-              <tr>
-                <td>
-                  <p>Inquiry</p>
-                </td>
-                <td>
-                  <textarea name="mySubject" style={{ height: "150px", width: "99%" }}/>
-                </td>
-              </tr>
-              <tr className="table-line">
+            <tr className="table-line"></tr>
+            <tr>
+              <td>
+                <p>Inquiry</p>
+              </td>
+              <td className="textarea-td">
+                <textarea
+                  name="mySubject"
+                  style={{ height: "180px", width: "98%"}}
+                />
+              </td>
             </tr>
-            </tbody>
-            <button>Send</button>
+            <tr className="table-line"></tr>
+          </tbody>
+          <button>Send</button>
         </form>
       </div>
       <Footer />
