@@ -53,6 +53,44 @@
   }
 }
 
+.dropbtn {
+  border:none;
+  background:none;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+}
+
+.dropbtn:hover {
+  font-style: oblique;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 4px 16px 0px rgba(165, 165, 165, 0.2);
+  z-index: 1;
+  background-color: white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:antiquewhite;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* nav end */
 
 
