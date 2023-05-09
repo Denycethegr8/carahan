@@ -241,11 +241,15 @@ footer {
   justify-content:center;
 }
 
+.store-imgs {
+  box-shadow: 10px 10px 5px 0px rgba(139, 139, 139, 0.75);
+}
+
 .store-imgs > img {
   width: 100%;
 }
 
-.store-flex > div > a {
+.store-name {
   font-family: 'Nanum Gothic', sans-serif;
   text-decoration: none;
   color:#9a7b4f;
@@ -256,6 +260,8 @@ footer {
   border-radius: 5px;
   background-color:antiquewhite;
 }
+
+
 /* store end */
 
 
