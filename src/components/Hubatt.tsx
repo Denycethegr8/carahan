@@ -1,14 +1,14 @@
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const Hubatt = () => {
-    return ( 
-        <div>
-            나는 휴바트
-            <Footer />
-        </div>
-     );
-}
+  return (
+    <div>
+      <div className="content-height-nav">
+        <div>dkdk</div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
-export
- default Hubatt;
-
+export default Hubatt;

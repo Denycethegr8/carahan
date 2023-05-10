@@ -261,10 +261,17 @@ footer {
 
 /* footer end */
 
+.content-height {
+  min-height: calc(100vh - 400px);
+}
+
+.content-height-nav {
+  min-height: calc(100vh - 70px);
+}
+
 
 /* store start */
 .store-flex {
-  min-height: calc(100vh - 400px);
   display:flex;
   align-items: center;
   justify-content:center;
@@ -299,13 +306,16 @@ footer {
   background-color:antiquewhite;
 }
 
+.store-name:hover {
+  padding: 4px 10px;
+  border: 1px solid;
+}
 
 /* store end */
 
 
 /* contact start */
 .contact-div {
-  min-height: calc(100vh - 400px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -381,23 +391,32 @@ form > button {
 
 
 /* about start */
-.about-div{
-  min-height: calc(100vh - 400px);
+.about-img-div {
+  position: relative;
+  text-align: center;
+  color:white;
+}
+
+.about-img{
+  width:100%;
+}
+
+.about-img-div > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* about end */
 
 
 /* brands start */
-.brands-div {
-  min-height: calc(100vh - 400px);
-}
+
 /* brands end */
 
 
 /* styling gallery start */
-.stylinggallery-div {
-  min-height: calc(100vh - 400px);
-}
+
 /* styling gallery end */
 
 

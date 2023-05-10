@@ -3,7 +3,7 @@ import Footer from "./Footer"
 const Store = () => {
     return ( 
         <div className="store">
-            <div className="store-flex">
+            <div className="store-flex content-height">
                 <div className="pricceclub">
                     <a className="store-imgs" target="_blank" href="https://priceclub.co.kr/"><img src="../src/img/priceclub.jpg" alt="pricceclub main image" /></a>
                     <a target="_blank" className="store-name" href="https://priceclub.co.kr/"><p>프라이스클럽</p></a>

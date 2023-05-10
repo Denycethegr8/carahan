@@ -1,14 +1,14 @@
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const MariSteiger = () => {
-    return ( 
-        <div>
-            나는 마리슈
-            <Footer />
-        </div>
-     );
-}
+  return (
+    <div>
+      <div className="content-height-nav">
+        <div>dkdk</div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
-export
- default MariSteiger;
-
+export default MariSteiger;

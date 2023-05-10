@@ -1,14 +1,14 @@
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const Imported = () => {
-    return ( 
-        <div>
-            나는 수입
-            <Footer />
-        </div>
-     );
-}
+  return (
+    <div>
+      <div className="content-height-nav">
+        <div>dkdk</div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
-export
- default Imported;
-
+export default Imported;

@@ -1,14 +1,14 @@
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const Prauban = () => {
-    return ( 
-        <div>
-            나는 프라우반
-            <Footer />
-        </div>
-     );
-}
+  return (
+    <div>
+      <div className="content-height-nav">
+        <div>dkdk</div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
-export
- default Prauban;
-
+export default Prauban;

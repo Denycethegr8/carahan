@@ -6,9 +6,9 @@ import Contact from "./components/Contact"
 import Store from "./components/Store"
 import StylingGallery from "./components/StylingGallery"
 import MariSteiger from "./components/MariSteiger"
-import Hubatt from "./components/hubatt"
-import Prauban from "./components/prauban"
-import Imported from "./components/imported"
+import Hubatt from "./components/Hubatt"
+import Prauban from "./components/Prauban"
+import Imported from "./components/Imported"
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -25,6 +25,9 @@ function App() {
             <Route path="store" element={<Store />} />
             <Route path="stylingGallery" element={<StylingGallery />} />
             <Route path="mariSteiger" element={<MariSteiger />}/>
+            <Route path="hubatt" element={<Hubatt />}/>
+            <Route path="imported" element={<Imported />}/>
+            <Route path="prauban" element={<Prauban />}/>
           </Route>
         </Routes>
       </BrowserRouter>

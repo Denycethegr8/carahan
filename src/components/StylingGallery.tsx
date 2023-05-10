@@ -1,12 +1,14 @@
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const StylingGallery = () => {
-    return ( 
-        <div className="stylinggallery">
-            <div className="stylinggallery-div">sdfsd</div>
-            <Footer />
-        </div>
-     );
-}
- 
+  return (
+    <div>
+      <div className="content-height">
+        <div>dkdk</div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
 export default StylingGallery;

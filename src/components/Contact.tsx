@@ -8,7 +8,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <div className="contact-div">
+      <div className="contact-div content-height">
         <h2>CONTACT US</h2>
         <form onSubmit={handleSubmit}>
           <tbody>
