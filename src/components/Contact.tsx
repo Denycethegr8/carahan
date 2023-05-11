@@ -56,6 +56,7 @@ const Contact = () => {
                 <textarea
                   name="mySubject"
                   style={{ height: "180px", width: "98%"}}
+                  spellCheck="false"
                 />
               </td>
             </tr>
