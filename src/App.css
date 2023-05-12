@@ -37,7 +37,7 @@
   }
 
   .nav > a:hover {
-    font-style: oblique;
+    color:olive;
   }
 
   .insta-logo {
@@ -61,7 +61,7 @@
 }
 
 .dropbtn:hover {
-  font-style: oblique;
+  color:olive;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -83,7 +83,7 @@
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color:antiquewhite;
+  color:darkolivegreen;
 }
 
 /* Show the dropdown menu on hover */
@@ -386,6 +386,8 @@ form > button {
   border-radius: 5px;
   color:#9a7b4f;
   background-color: antiquewhite;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 600;
 }
 /* contact end */
 
@@ -405,8 +407,11 @@ form > button {
   position: absolute;
   top: 50%;
   left: 50%;
+  font-size: 18px;
   transform: translate(-50%, -50%);
   animation: fadein 3s;
+  letter-spacing: 1.5px;
+  width: 600px;
 }
 
 @keyframes fadein {
@@ -422,6 +427,19 @@ form > button {
 
 
 /* brands start */
+.brand-img-div{
+  width: 800px;
+  display:flex;
+}
+
+.item:nth-child(1) {
+	flex-shrink: 0;
+	width: 500px;
+}
+.item:nth-child(2) {
+	flex-grow: 1;
+}
+
 
 /* brands end */
 
