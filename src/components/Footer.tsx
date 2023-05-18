@@ -22,7 +22,7 @@ const Footer = () => {
           <p>곤지암 물류센터 : (12811) 경기도 광주시 도척면 도척로 76-55</p>
           <p>물류센터 : 070-4800-6258</p>
         </div></div>
-        <p className='copyright'>COPYRIGHT(C) CARAHAN Inc. ALL RIGHT RESERVED.</p>
+        <p className='copyright'>COPYRIGHT(C) CARAHAN Inc. ALL RIGHTS RESERVED.</p>
     </footer>
   );
 };
