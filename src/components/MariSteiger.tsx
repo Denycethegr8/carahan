@@ -7,7 +7,7 @@ const MariSteiger = () => {
         <div className="brand-img-div">
           <div>
             <img
-              src="../src/img/brand-ms.png"
+              src="../src/img/brand-ms.jpg"
               alt="Mari Steiger brand image"
               className="brand-img"
             />
