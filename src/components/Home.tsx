@@ -1,6 +1,7 @@
 import Slide from "./Slide";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import Carousel from "./Carousel"
 
 const Home = () => {
   const homeGalleryImgsArr = [
@@ -20,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <Slide />
+      <Carousel />
       <section className="page-center">
         <p className="styling-gallery">Styling Gallery</p>
         <div className="home-gallery">{homeGalleryImgs}</div>

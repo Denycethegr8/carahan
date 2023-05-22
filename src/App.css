@@ -118,6 +118,10 @@
   right: 0;
 }
 
+.carousel-caption > h5 {
+  overflow-y: hidden;
+}
+
 .home-gallery{
   display: grid;
   grid-template-columns: 33% 33% 33%;
